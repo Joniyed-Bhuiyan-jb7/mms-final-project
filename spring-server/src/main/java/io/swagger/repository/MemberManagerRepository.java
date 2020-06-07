@@ -1,0 +1,1 @@
+package io.swagger.repository;import io.swagger.model.MemberManager;import org.springframework.data.repository.CrudRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface MemberManagerRepository extends CrudRepository<MemberManager,String>{}

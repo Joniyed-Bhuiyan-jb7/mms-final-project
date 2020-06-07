@@ -1,0 +1,1 @@
+package io.swagger.model;public enum Role {    Member,    Manager,    Admin;}

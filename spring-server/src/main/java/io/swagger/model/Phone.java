@@ -1,0 +1,1 @@
+package io.swagger.model;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;import javax.persistence.Embeddable;@Data@AllArgsConstructor@NoArgsConstructor@Embeddablepublic class Phone {    private String code;    private long number;    @Override    public String toString() {        return code+""+number;    }}
